@@ -1,3 +1,7 @@
 <?php
-header('Content-Type: application/json');
-echo json_encode(array('foo' => $_GET['name']));
+
+use alr\core\Response;
+
+require '../core/bootstrap.php';
+
+Response::json(array('uri' => $_GET['uri']));

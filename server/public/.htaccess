@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteBase /
-RewriteRule ^api/(.*)$ api.php?name=$1 [NC,L]
+RewriteRule ^api/(.*)$ api.php?uri=$1 [NC,L]
 
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
