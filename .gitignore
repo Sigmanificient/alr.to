@@ -1,2 +1,5 @@
 .idea
 .vscode
+
+# Php vendor
+vendor
