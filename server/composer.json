@@ -1,0 +1,18 @@
+{
+  "name": "sigmanificient/alr-to",
+  "autoload": {
+    "psr-4": {
+      "alr\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sigmanificient",
+      "email": "edhyjox@gmail.com"
+    },
+    {
+      "name": "drawbu",
+      "email": "69208565+drawbu@users.noreply.github.com"
+    }
+  ]
+}
