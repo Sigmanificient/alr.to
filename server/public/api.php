@@ -1,7 +1,7 @@
 <?php
 
-use alr\core\Response;
+use alr\core\Router;
 
 require '../core/bootstrap.php';
 
-Response::json(array('uri' => $_GET['uri']));
+Router::getRoute();
