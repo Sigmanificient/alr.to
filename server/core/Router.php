@@ -14,6 +14,7 @@ class Router
 
         if (!file_exists($clsFile)) {
             Response::json(array('error' => 'not found'));
+            return;
         }
 
         require $clsFile;
