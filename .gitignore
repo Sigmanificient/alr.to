@@ -3,3 +3,8 @@
 
 # Php vendor
 vendor
+
+
+# environment variables
+.env
+.env.local
